@@ -4,20 +4,19 @@ ___
 
 **The following is a spec checklist for our desired functionality:**
 
-- [ ] Given the following parameters return all possible movements of our knight within the constraints of the board
-    1. **x** - the starting x coordinate of the chess board
-    2. **y** - the starting y coordinate of the chess board
+- [ ] Given the following parameters return all possible movements of a knight within the constraints of the board
+    1. **x** - the starting x coordinate of the knight on our chess board
+    2. **y** - the starting y coordinate of the knight on our chess board
     3. **n** - The size of the chess board
-- [ ] Our knight cannot go out of the bounds of the board (**size n**)
+- [ ] Our knight cannot go out of the bounds of the board (**size n**) - please do not expand on movements that run out of bounds
 - [ ] If our starting coordinate is outside of the board (**size n**) return an empty structure
-- [ ] If our starting coordinates are within the constraints of the board, return an ordered structrure containing all of the possible movements **in the order** they are moved to
+- [ ] If our starting coordinates are within the constraints of the board, return an ordered structrure containing all of the possible movements
 - [ ] The knight **should not** visit the same coordinate twice
 - [ ] Log all returned parameters to the console in a neat and formatted fashion
 
 **A few things to keep in mind during this exercise:**
-1. A knight cannot move outside of our board (**size n**)
-2. A knight moves in **"L"** shaped motions - 1 vertical space and 2 horizontal spaces or 2 vertical spaces and 1 horizontal space
-3. The data structures used during this exercise are totally up to you! Feel free to use dictionaries, maps, sets, and lists at your own will, as long as the specs of the output are maintained
-4. Concepts like time/space complexity should be accounted for during this exercise
-5. Bonus points are given for clever decisions regarding performance optimization, fast failing, code documentation, algorithms, and data structure implementations
-6. For this exercise please use Python 3
+1. A knight moves in **"L"** shaped motions - 1 vertical space and 2 horizontal spaces or 2 vertical spaces and 1 horizontal space
+2. The data structures used during this exercise are totally up to you! Feel free to use dictionaries, maps, sets, and lists at your own will, as long as the specs of the output are maintained
+3. Concepts like time/space complexity should be accounted for during this exercise
+4. Bonus points are given for clever decisions regarding performance optimization, fast failing, code documentation, algorithms, and data structure implementations
+5. For this exercise please use Python 3
